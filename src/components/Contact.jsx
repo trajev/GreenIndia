@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
 
-      <div className='h-[90vh] w-full bg-[url("./image2.jpg")] bg-fixed bg-no-repeat bg-cover bg-center relative '>
+      <div className='h-[90vh] w-full bg-[require("./image2.jpg").default] bg-fixed bg-no-repeat bg-cover bg-center relative '>
         <div className='h-[30vh] bg-white'>
 
         </div>

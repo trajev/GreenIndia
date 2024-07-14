@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
 
-        <div className='h-[200vh] sm:h-screen w-[200vw] sm:w-full bg-[url("./image5-1.jpg")] bg-cover bg-center'>
+        <div className='h-[200vh] sm:h-screen w-[200vw] sm:w-full bg-[require("./image5-1.jpg").default] bg-cover bg-center'>
 
             {/* <nav className='w-full h-[12%] bg-zinc-800 bg-opacity-50 text-white flex justify-between items-center px-20'>
                 <div className="">
