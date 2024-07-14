@@ -8,7 +8,7 @@ const Dashboard = () => {
     name: "John Doe",
     phone: "123-456-7890",
     email: "john.doe@example.com",
-    photo: "https://via.placeholder.com/150"
+    photo: "https://imgs.search.brave.com/HN_3N-O-4O4WWcpylJDkFneVPwYhD6m20NgxMAWPvoE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5naXRlbS5jb20v/cGltZ3MvbS8yNzIt/MjcyMDY1Nl91c2Vy/LXByb2ZpbGUtZHVt/bXktaGQtcG5nLWRv/d25sb2FkLnBuZw"
   };
 
   const initialRequests = [
@@ -53,7 +53,7 @@ const Dashboard = () => {
             <div className="request-item" key={request.id}>
               <div className="request-date">{request.date}</div>
               <div className="request-details">{request.details}</div>
-              <div className="request-amount">Total Amount: ${request.totalAmount}</div>
+              <div className="request-amount">Total Amount: &#8377;{request.totalAmount}</div>
               <button className="delete-button" onClick={() => deleteRequest(request.id)}>
                 <FontAwesomeIcon icon={faTrashAlt} />
               </button>

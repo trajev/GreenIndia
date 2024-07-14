@@ -138,7 +138,7 @@ export default function User_form() {
         </div>
         <div>
           <div id="approxPrice">
-            Approximate Price: ${approxPrice.toFixed(2)}
+            Approximate Price: &#8377;{approxPrice.toFixed(2)}
           </div>
           <button type="submit" className="px-10 py-3 hover:bg-gray-200 text-white my-2 rounded-lg  hover:text-green-600 transition-all duration-500 ease-in-out bg-green-600 font-semibold text-lg">Submit</button>
         </div>
