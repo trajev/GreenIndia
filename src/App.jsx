@@ -20,20 +20,22 @@ const App = () => {
       <BrowserRouter>
 
         <MainNav /> 
+
         <Routes>
 
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/services" element={<Services />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/form" element={<User_form />}></Route>
 
-          <Route path="/login" element={<Login />}></Route>
-          <Route path="/signup" element={<SignUp />}></Route>
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
 
           <Route path="/dashboard" element={<Dashboard />}></Route>
 
         </Routes>
-      <Footer />
+
+        <Footer />
 
       </BrowserRouter>
 
